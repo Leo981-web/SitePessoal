@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <title>Site Pessoal</title>
+</head>
+
+<body>
+
+  <header class="mainHeader">
+    <nav class="mainNav">
+      <ul>
+        <li><a href="#sobre">Sobre mim</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#certificados">Certificados</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="particlesJs"></div>
+
+  <section class="telaInicial">
+    <div>
+      <div class="molde">
+        <p class="typing">Olá meu nome é</p>
+      </div>
+      <h1 class="name">Leonardo</h1>
+      <h2 class="subtitle">Estudante de Ciências da Computação</h2>
+      <a href="#sobre" class="button">Mais sobre mim</a>
+    </div>
+  </section>
+
+  <section id="sobre">
+    <div class="sobreContainer">
+
+      <div class="fotoColuna">
+        <img src="assets/FotoPerfil.png" alt="Foto de Leonardo" class="fotoPerfil">
+      </div>
+
+      <div class="textoColuna">
+        <h3 class="tituloGeral">Minha história</h3>
+        <p>
+          Sou Leonardo Manfroi Zancanaro, tenho 19 anos sou apaixonado por tecnologia e o mundo Geek. Sempre em busca
+          de novos aprendizados.
+        </p>
+        <p>
+          Desde a infância enfrentei grandes desafios de saúde, incluindo um tratamento contra a leucemia e a
+          necessidade de próteses nos quadris. Essas experiências me ensinaram resiliência, disciplina e foco,
+          qualidades que hoje aplico nos estudos e na vida profissional. Sou dedicado, criativo e aberto a novos
+          aprendizados, buscando sempre transformar desafios em oportunidades de crescimento.
+        </p>
+      </div>
+
+      <a href="#habilidades" class="scroll">
+        <span class="seta"></span>
+      </a>
+
+    </div>
+  </section>
+
+  <section id="habilidades">
+    <h2 class="tituloGeral">Minhas habilidades</h2>
+    <div class="matrizHabilidades">
+
+      <div class="cardHabilidade">
+        <div class="hexagono">
+          <i class="devicon-html5-plain"></i>
+          <span>HTML5</span>
+        </div>
+      </div>
+
+      <div class="cardHabilidade">
+        <div class="hexagono">
+          <i class="devicon-javascript-plain"></i>
+          <span>Javascript</span>
+        </div>
+      </div>
+
+      <div class="cardHabilidade">
+        <div class="hexagono">
+          <i class="devicon-java-plain"></i>
+          <span>Java</span>
+        </div>
+      </div>
+
+      <div class="cardHabilidade">
+        <div class="hexagono">
+          <i class="devicon-python-plain"></i>
+          <span>Python</span>
+        </div>
+      </div>
+
+      <div class="cardHabilidade">
+        <div class="hexagono">
+          <i class="devicon-css3-plain"></i>
+          <span>CSS3</span>
+        </div>
+      </div>
+
+      <div class="cardHabilidade">
+        <div class="hexagono">
+          <i class="devicon-github-plain"></i>
+          <span>GitHub</span>
+        </div>
+      </div>
+
+      <div class="cardHabilidade">
+        <div class="hexagono">
+          <i class="devicon-pandas-plain"></i>
+          <span>Pandas</span>
+        </div>
+      </div>
+
+      <div class="cardHabilidade">
+        <div class="hexagono">
+          <i class="devicon-git-plain"></i>
+          <span>Git</span>
+        </div>
+      </div>
+    </div>
+    <a href="#projetos" class="scroll">
+      <span class="seta"></span>
+    </a>
+  </section>
+
+  <section id="projetos">
+    <h2 class="tituloGeral">Projetos</h2>
+    <div class="gridProjetos">
+      <div class="cardProjeto">
+        <div class="projetoImagem">
+          <img src="assets/catDream.png" alt="menu principal do jogo">
+        </div>
+        <div class="projetoDescricao">
+          <h3>Cat's Dream</h3>
+          <p>Ajude o gatinho a coletar peixes, desviar dos perigos e sobreviver aos sonhos que podem virar pesadelos.
+            Totalmente feito em Python com Pygame.</p>
+          <a href="https://github.com/Leo981-web/Cat-s-Dream.git" class="projetoLinks">Ver Mais</a>
+        </div>
+      </div>
+
+      <div class="cardProjeto">
+        <div class="projetoImagem">
+          <img src="assets/listaVeiculos.png" alt="Codigo do projeto cadastro de veículos">
+        </div>
+        <div class="projetoDescricao">
+          <h3>Cadastro de Veículos</h3>
+          <p>Projeto em equipe: desenvolvimento de um sistema de cadastro de veículos em Java, aplicando conceitos de
+            programação orientada a objetos e boas práticas de desenvolvimento colaborativo.</p>
+          <a href="https://github.com/MariaLaimer/Cadastro-de-Veiculos.git" class="projetoLinks">Ver Mais</a>
+        </div>
+      </div>
+
+      <div class="cardProjeto">
+        <div class="projetoImagem">
+          <img src="assets/sistemaEstoque.png" alt="Codigo do projeto sistema de estoque">
+        </div>
+        <div class="projetoDescricao">
+          <h3>Sistema de estoque</h3>
+          <p>Em colaboração com colegas, construímos um sistema de estoque em Python baseado em POO, permitindo
+            controlar entradas e saídas de produtos de maneira prática e organizada.</p>
+          <a href="https://github.com/bymariia/PROJETO-SISTEMA-ESTOQUE-.git" class="projetoLinks">Ver Mais</a>
+        </div>
+      </div>
+    </div>
+
+    <a href="#certificados" class="scroll">
+      <span class="seta"></span>
+    </a>
+  </section>
+
+  <section id="certificados">
+    <h3 class="tituloGeral">Certificados</h3>
+    <div class="containerCarrossel">
+      <div class="carrosselslide">
+
+        <img src="assets/certificate_page-0001.jpg" alt="Ultimo certificado" id="cloneUltimo">
+
+        <img src="assets/certificado front _page-0001.jpg" alt="Certificado imersão front end Alura">
+        <img src="assets/Certificado IA_page-0001.jpg" alt=" Certificado Jornada IA Hashtag ">
+        <img src="assets/certificado imersão Dev IA_page-0001.jpg" alt=" Certificado imersão Dev IA Alura">
+        <img src="assets/certificate_page-0001.jpg" alt=" Certificado NLW Agents ">
+
+        <img src="assets/certificado front _page-0001.jpg" alt="Primeiro certificado" id="clonePrimeiro">
+
+      </div>
+
+      <button id="btanterior" class="carrosselbtn">❮</button>
+      <button id="btproximo" class="carrosselbtn">❯</button>
+    </div>
+    <a href="#contato" class="scroll">
+      <span class="seta"></span>
+    </a>
+  </section>
+
+  <footer id="contato">
+    <h1 class="tituloGeral">Entre em contato comigo!</h1>
+    <div class="redesSociais">
+      <a href="https://www.linkedin.com/in/leonardo-manfroi-zancanaro/" target="_blank" class="iconeRedeSocial">
+        <i class="devicon-linkedin-plain"></i>
+      </a>
+
+      <a href="https://www.instagram.com/leomanfroizancanaro/" target="_blank" class="iconeRedeSocial">
+        <i class="fab fa-instagram"></i>
+      </a>
+
+      <a href="https://github.com/Leo981-web" target="_blank" class="iconeRedeSocial">
+        <i class="devicon-github-original"></i>
+      </a>
+
+      <a href="mailto:leozancanaro@outlook.com.br" target="_blank" class="iconeRedeSocial">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+    </div>
+    <p class="copyright">© 2025 Leonardo Manfroi Zancanaro. Todos os direitos reservados.</p>
+
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
