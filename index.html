@@ -7,7 +7,8 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-  <title>Site Pessoal</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <title>Leonardo Manfroi Zancanaro</title>
 </head>
 
 <body>
@@ -176,28 +177,29 @@
   </section>
 
   <section id="certificados">
-    <h3 class="tituloGeral">Certificados</h3>
-    <div class="containerCarrossel">
-      <div class="carrosselslide">
+    <h2 class="tituloGeral">Certificados</h2>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image: url(assets/certificado\ front\ _page-0001.jpg)"></div>
 
-        <img src="assets/certificate_page-0001.jpg" alt="Ultimo certificado" id="cloneUltimo">
+        <div class="swiper-slide" style="background-image: url(assets/Certificado\ IA_page-0001.jpg)"></div>
 
-        <img src="assets/certificado front _page-0001.jpg" alt="Certificado imersão front end Alura">
-        <img src="assets/Certificado IA_page-0001.jpg" alt=" Certificado Jornada IA Hashtag ">
-        <img src="assets/certificado imersão Dev IA_page-0001.jpg" alt=" Certificado imersão Dev IA Alura">
-        <img src="assets/certificate_page-0001.jpg" alt=" Certificado NLW Agents ">
+        <div class="swiper-slide" style="background-image: url(assets/certificado\ imersão\ Dev\ IA_page-0001.jpg)"></div>
 
-        <img src="assets/certificado front _page-0001.jpg" alt="Primeiro certificado" id="clonePrimeiro">
+        <div class="swiper-slide" style="background-image: url(assets/certificate_page-0001.jpg)"></div>
 
       </div>
-
-      <button id="btanterior" class="carrosselbtn">❮</button>
-      <button id="btproximo" class="carrosselbtn">❯</button>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
     </div>
+
     <a href="#contato" class="scroll">
       <span class="seta"></span>
     </a>
+
   </section>
+
 
   <footer id="contato">
     <h1 class="tituloGeral">Entre em contato comigo!</h1>
@@ -224,6 +226,7 @@
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="script.js"></script>
 </body>
 

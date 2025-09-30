@@ -69,41 +69,16 @@ window.addEventListener("load", function () {
 
 //carrossel
 
-const carrosselSlide = document.querySelector('.carrosselslide');
-const carrosselImages = document.querySelectorAll('.carrosselslide img');
+const swiper = new Swiper('.swiper', {
+  loop: true,
+  
+  
+  slidesPerView: 1,
+  spaceBetween: 30, 
+  
 
-const prevBtn = document.querySelector('#btanterior');
-const nextBtn = document.querySelector('#btproximo');
-
-let counter = 1;
-const size = carrosselImages[0].clientWidth;
-
-carrosselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
-
-
-nextBtn.addEventListener('click', () => {
-  if (counter >= carrosselImages.length - 1) return;
-  carrosselSlide.style.transition = "transform 0.4s ease-in-out";
-  counter++;
-  carrosselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
-});
-
-prevBtn.addEventListener('click', () => {
-  if (counter <= 0) return;
-  carrosselSlide.style.transition = "transform 0.4s ease-in-out";
-  counter--;
-  carrosselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
-});
-
-carrosselSlide.addEventListener('transitionend', () => {
-  if (carrosselImages[counter].id === 'cloneUltimo') {
-    carrosselSlide.style.transition = "none";
-    counter = carrosselImages.length - 2;
-    carrosselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
-  }
-  if (carrosselImages[counter].id === 'clonePrimeiro') {
-    carrosselSlide.style.transition = "none";
-    counter = carrosselImages.length - counter;
-    carrosselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
-  }
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
 });
