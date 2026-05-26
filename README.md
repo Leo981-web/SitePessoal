@@ -8,8 +8,6 @@
 
 Este é o repositório do meu portfólio pessoal. Um espaço desenvolvido com uma estética moderna **cyberpunk/synthwave** para centralizar meus projetos, habilidades, certificados e canais de contato.
 
-> 🚀 **Confira o projeto online:** [Adicione aqui o link do GitHub Pages ou Deploy]
-
 ---
 
 # 📱 Sobre o Projeto
